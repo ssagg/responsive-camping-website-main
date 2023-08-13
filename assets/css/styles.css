@@ -90,6 +90,8 @@ img {
   z-index: var(--z-fixed);
 }
 .nav {
+  padding-bottom: 10px;
+  padding-top: 10px;
   position: relative;
   height: var(--header-height);
   display: flex;

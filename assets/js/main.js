@@ -37,7 +37,6 @@ const bgHeader = () => {
 };
 window.addEventListener("scroll", bgHeader);
 
-/*=============== GSAP ANIMATION ===============*/
 gsap.from(".home__img-2", 1.2, { opacity: 0, y: 200, delay: 0.1 });
 gsap.from(".home__img-3", 1.2, { opacity: 0, y: 200, delay: 0.5 });
 gsap.from(".home__data", 1.2, { opacity: 0, y: -60, delay: 1 });
